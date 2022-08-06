@@ -1,65 +1,84 @@
 .container{
     width: 100vw;
-    height: 100vh;
-    margin: 0 auto;    
+    height: 100vh; 
+    padding-top: 30px;      
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     background-color: black;
 }
+.container .box-conteudo{
+    width: 53%;
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between    
+    
+}
 .container .box-logo{
-    width: 205px;
-    height: 65px;
+    width: 221px;
+    height: 70px;
     
 }
 .box-logo img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;    
 
 }
 .container .box-h1{
     color: white;
+    font-size: 38px;
 }
 .container .box-perfil{
-    width: 700px;
-    height: 160px;
-    display: flex;
-    justify-content: space-between;    
+    width: 750px;
+    height: 180px;             
 }
-.container .box-perfil img{
+.container .box-perfil ul{    
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px
+}
+.container .box-perfil ul li{
+    border: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.container .box-perfil ul li img{
     width: 160px;
     height: 160px;
+    background-color: #1e1e20;
     border-radius: 6px;
 }
-.container .box-nomes{
-    display: flex;
-    width: 700px;
-    color: white;
-    justify-content: space-around;
-    
+.container .box-perfil ul li img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.452);
 }
+.container .box-perfil ul li p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
 .container .button-box{
     width: 210px;
     height: 55px;
-    display: flex;
-  
-    
+      
     
 }
 .container .button-box .button{
     text-decoration: none;
+    background-color: black;
     color: white;
-    display: inline-block;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
     width: 100%;
     height: 100%;
     border: 1px solid white;
-    border-radius: 10px;
-    
-
-   
-    
-    
-    
-
+    border-radius: 10px;    
+    }
+.container .button-box .button:hover{
+    background-color: white;
+    color: black;
 }
+ 

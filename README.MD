@@ -25,7 +25,7 @@ A ideia principal foi um desenvolvimento de uma homePage simulando a interface d
 
 Este projeto foi desenvolvido como parte do aprendizado na Kenzie Academy Brasil, com o intuito de aplicar os conceitos de flexbox e containers, bem como utilizar as melhores práticas de HTML. Sinta-se à vontade para explorar e modificar o projeto de acordo com suas necessidades. Caso tenha alguma dúvida ou sugestão, não hesite em entrar em contato.
 
-Agradeço por utilizar o nosso e-commerce desenvolvido com flexbox. Espero que seja útil e proporcione uma experiência agradável!
+Agradeço por utilizar o template: Desenvolvendo KenzieFlix. Espero que seja útil e proporcione uma experiência agradável!
 
 ## Contato
 

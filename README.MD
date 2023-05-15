@@ -1,4 +1,4 @@
-# Entrega - CSS: Desenvolvendo E-commerce com Flexbox
+# Entrega - CSS: Desenvolvendo KenzieFlix
 
 ## Sobre o Projeto
 
